@@ -116,7 +116,7 @@ const MethodologySection = () => {
                 </div>
 
                 <div className="bg-card rounded-xl p-6 border border-border shadow-md">
-                  <p className="italic text-muted-foreground mb-4">"A metodologia aplicada transformou completamente nosso marketing digital. Finalmente temos previsibilidade e escalabilidade nos resultados."</p>
+                  <p className="italic text-muted-foreground mb-4">&ldquo;A metodologia aplicada transformou completamente nosso marketing digital. Finalmente temos previsibilidade e escalabilidade nos resultados.&rdquo;</p>
                   <div>
                     <div className="font-medium">Marcos Oliveira</div>
                     <div className="text-sm text-muted-foreground">Diretor de Marketing, TechCorp</div>

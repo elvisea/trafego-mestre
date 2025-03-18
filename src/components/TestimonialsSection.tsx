@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
     }, 8000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, []);  // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <section id="testimonials" className="py-20">
@@ -83,7 +83,7 @@ const TestimonialsSection = () => {
                 </div>
               </div>
               <blockquote className="text-lg md:text-xl italic text-center">
-                "{testimonials[activeIndex].text}"
+                &ldquo;{testimonials[activeIndex].text}&rdquo;
               </blockquote>
             </div>
 
