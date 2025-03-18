@@ -41,10 +41,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/elvisea/trafegomestre.git
+$ git clone https://github.com/elvisea/trafego-mestre
 
 # Acesse a pasta do projeto
-$ cd trafegomestre
+$ cd trafego-mestre
 
 # Instale as dependências
 $ npm install
