@@ -18,10 +18,17 @@ export function formatCurrency(value: number): string {
   }).format(value);
 }
 
+/**
+ * Calcula a porcentagem de desconto entre dois valores
+ */
 export function calculateDiscount(original: number, discounted: number): number {
   return Math.round(((original - discounted) / original) * 100);
 }
 
+// As funções abaixo foram comentadas pois não estão sendo utilizadas atualmente
+// Podem ser descomentadas quando necessário
+
+/*
 export function truncateText(text: string, maxLength: number): string {
   if (text.length <= maxLength) return text;
   return text.slice(0, maxLength) + '...';
@@ -44,3 +51,4 @@ export function debounce<T extends (...args: any[]) => any>(
     timeout = setTimeout(() => func(...args), wait);
   };
 }
+*/
